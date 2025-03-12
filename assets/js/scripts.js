@@ -8,6 +8,8 @@ const valores = document.getElementById('valores')
 
 const contato = document.getElementById('contato')
 
+delete(request)
+delete(request, options)
 
 function rol1() {
     window.scrollTo (0, 0)
