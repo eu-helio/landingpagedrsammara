@@ -1,0 +1,97 @@
+body{
+    background-color:#ffffff;} 
+    
+ 
+    
+
+
+
+
+
+
+.navbar{
+
+    background-color: black ;
+    
+}
+
+.navlogo{
+    height: 50px;
+    
+}
+.cursive{
+    
+    height: 40px;
+}
+
+
+.container-fluid{
+    background-color: black;
+    
+
+
+}.titulos{
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 80px;
+    align-items: center;
+    justify-content: center ;
+    
+
+}
+
+.separadormenu{
+    background-color: darkgray;
+    height: 100%;
+    display: flex;
+    padding: 1px;
+    position: relative;
+    margin: 0;
+    top: 4px;
+}
+
+
+
+
+.nav-link{
+    background-color: #8d6700;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    top: 4px;
+    font-family: "Merriweather", serif;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 300px;
+    align-items: start;
+    justify-content: center ;
+    
+    position: relative;
+    
+
+}
+
+
+.contatos{
+   
+    height: 70px;
+}
+
+
+.whatsappimg {
+    cursor: pointer;
+    display: scroll;
+    position: fixed;
+    height: 70px;
+    right: 10px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+
+
