@@ -1,8 +1,134 @@
 body{
-    background-color:#ffffff;} 
+    background-color:#ffffff;
     
+} 
+    
+
+
  
+.containercontatos{
+    height: 450px;
+    width: 700px;
+    border: 2px;
     
+    position: relative;
+    top: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.controle-atendimento{
+    height: 860px;
+    width: 1200px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+
+.canaisdeatendimento{
+    height:450px;
+    width: 550px;
+
+    background-color:aqua;
+
+}
+
+
+
+
+.enviodeemail{
+    border-left: darkgrey 1px solid;
+    height:450px;
+    width: 550px;
+    padding: 10px;
+
+}
+.btn{
+    margin: auto;
+    
+    display: flex;
+}
+
+
+.nav2{
+    display: none;
+}
+
+
+
+
+
+
+.menu2{
+    displ
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -19,25 +145,15 @@ body{
     height: 50px;
     
 }
+
 .cursive{
-    
+
     height: 40px;
 }
 
 
 .container-fluid{
     background-color: black;
-    
-
-
-}.titulos{
-    display: flex;
-    flex-direction: row;
-    width: 365px;
-    height: 80px;
-    align-items: center;
-    justify-content: center ;
-    
 
 }
 
@@ -51,9 +167,6 @@ body{
     top: 4px;
 }
 
-
-
-
 .nav-link{
     background-color: #8d6700;
     height: 100%;
@@ -63,25 +176,6 @@ body{
     top: 4px;
     font-family: "Merriweather", serif;
 }
-.conteudo{
-    display: flex;
-    flex-direction: row;
-    width: 365px;
-    height: 300px;
-    align-items: start;
-    justify-content: center ;
-    
-    position: relative;
-    
-
-}
-
-
-.contatos{
-   
-    height: 70px;
-}
-
 
 .whatsappimg {
     cursor: pointer;
@@ -92,6 +186,7 @@ body{
     bottom: 20px;
     z-index: 1;
 }
+
 
 
 

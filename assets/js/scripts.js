@@ -6,7 +6,9 @@ const espec = document.getElementById('espec')
 
 const valores = document.getElementById('valores')
 
-const contato = document.getElementById('contato')
+const contato = document.querySelector('.containercontatos')
+
+
 
 
 function rol1() {
@@ -38,5 +40,11 @@ function rol4() {
 
 
  function rol5() {
-    window.scrollTo (0, 1000)
+    contato.style.backdropFilter = 'blur(2px)'
+    
+    contato.style.minHeight = '100vh'
+    
+    
+    contato.style.top = '-1150px'
+    
  }
