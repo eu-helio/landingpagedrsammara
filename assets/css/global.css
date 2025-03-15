@@ -77,16 +77,73 @@ h4 {
 
 
 @media (min-width: 768px) {
+  .menu1{
+    display: fixed;
+  }
+  
+  .menu2{
+    display: fixed;
+  }
 
   
-
   .cursive{
       height: 50px;
       
   } 
+  
+  .containercontatos{
+    height: 450px;
+    width: 700px;
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
-  
-  
+
+
+
+.controle-atendimento{
+    height: 860px;
+    width: 1200px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+
+.canaisdeatendimento{
+    height:450px;
+    width: 550px;
+
+    background-color:aqua;
+
+}
+
+
+
+
+.enviodeemail{
+    border-left: darkgrey 1px solid;
+    height:450px;
+    width: 550px;
+    padding: 10px;
+
+}
+.btn{
+    margin: auto;
+    
+    display: flex;
+}
 
 
 

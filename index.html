@@ -19,10 +19,33 @@
 </head>
 
 <body>
-    <a href="https://wa.me/+5584981157490">
-        <img class="whatsappimg" src="./assets/img/whatsapp.ico.png" />
-    </a>
+    
     <header>
+        <div class="menu1">
+        <nav class="navbar bg-dark navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <img src="./assets/img/Cartão Premium - Frontal.png" class="cursive" alt="">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  
+                  <a class="nav-link text-white " href="#">Página Inicial</a>
+                  <hr class="separadormenu">
+                  <a class="nav-link text-white" href="#">Perguntas Frequentes</a>
+                  <hr class="separadormenu">
+                  <a class="nav-link text-white" href="#">Nossa Especialidade</a>
+                  <hr class="separadormenu">
+                  <a class="nav-link text-white" href="#">Nossos Valores</a>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="menu2">
         <nav class="navbar">
             <div class="container-fluid">
 
@@ -53,6 +76,7 @@
                 </div>
             </div>
         </nav>
+    </div>
     </header>
 
     <div class="containergeral">
@@ -174,48 +198,60 @@
 
         <hr>
         <div class="containercontatos">
-            <h1>Fale Conosco </h1>
-            <h3>Canais de atendimento</h3>
-
+            <div class="faleconosco">
+                <h1 >Fale Conosco</h1>
+                
+            </div>
+            
+            
             <div class="controle-atendimento">
 
                 <div class="canaisdeatendimento">
                     <h2>Atendimento via WhatsApp</h2>
 
 
-                    <h5>Atendimento: Segunda a sexta feira das 09:00 às 14:00 hrs às 17:30 hrs | Sábados das 09:00 às 12:00 hrs</h5>
+                    <h5>Atendimento: Segunda a Sexta das 09:00 às 14:00 hrs </h5>
 
-
-
-
-
+                <div class="containerwpp-yellow">
+                    <a href="https://wa.me/+5584981157490">
+                        <img class="whatsappimg" src="./assets/img/whatsapp.ico.png" />
+                    </a>
+                    <a class="numero" href="https://wa.me/+5584981157490">
+                        <h5 >+55 (84) 98115 - 7490</h5>
+                    </a>
+                    
+                    <div class="containerwpp-text"></div>
+                </div>
 
 
 
                 </div>
                 <div class="enviodeemail">
                     <h2>Atendimento via E-mail</h2>
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Nome</label>
-                            <input type="textarea" class="form-control" id="nomecontato">
+                    <form 
+                    action="https://formsubmit.co/helio2rn1@gmail.com" 
+                    method="POST"
+                    enctype="multipart/form-data">
+                        <div class="mb-3 ">
+                            <label for="exampleInputPassword1" class="form-label" name="name">Nome</label>
+                            <input type="text" required name="name" class="form-control" id="nomecontato">
                           </div>
                           
                         
                         
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" required name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail.</div>
                             
                           </div>
                         
                           <div class="input-group">
                             
-                            <textarea  placeholder="Digite sua mensagem" class="form-control" aria-label="With textarea"></textarea>
+                            <textarea placeholder="Digite sua mensagem" name="message" class="form-control" aria-label="With textarea"></textarea>
                           </div>
                           <hr>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
                             </div>
                       </form>
 
