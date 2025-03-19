@@ -1,52 +1,162 @@
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* 2. Remove default margin */
-  * {
-    margin: 0;
-  }
-  
-  body {
-    /* 3. Add accessible line-height */
-    line-height: 1.5;
-    /* 4. Improve text rendering */
-    -webkit-font-smoothing: antialiased;
-    font-family: "Merriweather", serif;
-  }
-  
-  /* 5. Improve media defaults */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  /* 6. Inherit fonts for form controls */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  
-  /* 7. Avoid text overflows */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /* 8. Improve line wrapping */
-  p {
-    text-wrap: pretty;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-  }
-  
-  /*
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  font-family: "Merriweather", serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  text-align: center;
+}
+
+/*
     9. Create a root stacking context
   */
-  #root, #__next {
-    isolation: isolate;
+#root,
+#__next {
+  isolation: isolate;
+}
+
+h4 {
+  font-size: 13px;
+}
+
+footer {
+  top: 200px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .menu1 {
+    display: fixed;
+    border-bottom: solid black 8px;
   }
 
-  h4{
-    font-size: 13px;
+  .menu2 {
+    display: fixed;
   }
+
+
+  .cursive {
+    height: 50px;
+
+  }
+
+  .faleconosco {
+    padding: 20px;
+  }
+
+ 
+
+
+
+
+  .containercontatos {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+
+
+
+  .controle-atendimento {
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+
+  }
+
+
+
+  .canaisdeatendimento {
+    height: 100%;
+
+
+  }
+
+
+
+
+  .enviodeemail {
+
+    padding: 20px;
+    border-left: darkgrey 1px solid;
+    border-top: 0px;
+    height: 450px;
+    width: 550px;
+    padding: 10px;
+
+  }
+
+  .btn {
+    margin: auto;
+
+    display: flex;
+  }
+
+
+
+
+}

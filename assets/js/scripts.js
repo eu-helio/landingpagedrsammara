@@ -6,7 +6,9 @@ const espec = document.getElementById('espec')
 
 const valores = document.getElementById('valores')
 
-const contato = document.getElementById('contato')
+const contato = document.querySelector('.containercontatos')
+
+const btnvoltar = document.querySelector('.btn-secundary')
 
 delete(request)
 delete(request, options)
@@ -40,5 +42,17 @@ function rol4() {
 
 
  function rol5() {
-    window.scrollTo (0, 1000)
+    contato.style.backdropFilter = 'blur(20px)'
+    btnvoltar.style.display = 'flex'
+    contato.style.position = 'fixed'
+    contato.style.margin = 'auto'
+    contato.style.heigth = '100%'
+    contato.style.width = '100%'
+    
+ }
+
+ function voltar(){
+   btnvoltar.style.display = 'none'
+   location.reload()
+
  }
