@@ -1,17 +1,17 @@
-body{
-    background-color:#ffffff;
-    
-} 
-    
+body {
+    background-color: #ffffff;
 
-.faleconosco{
+}
+
+
+.faleconosco {
     padding: 30px;
 
 }
 
- 
-.containercontatos{
-    
+
+.containercontatos {
+
     border: 2px;
     position: relative;
     top: -10px;
@@ -20,26 +20,26 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 
 
 
 
-.controle-atendimento{
-   
-   
+.controle-atendimento {
+
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
 
-.containerwpp-yellow{
+.containerwpp-yellow {
     height: 60px;
     width: 280px;
     background-color: #8d6700;
@@ -51,22 +51,23 @@ body{
     text-align: center;
     color: white;
     border-radius: 5px 0px 0px 5px;
-    
+
 }
-.canaisdeatendimento{
-   font-size: 16px; 
+
+.canaisdeatendimento {
+    font-size: 16px;
     padding: 30px;
 
 }
 
-.numero{
+.numero {
     text-decoration: none;
     color: #ffffff;
 }
 
 
 
-.enviodeemail{
+.enviodeemail {
     width: 100%;
     height: 100%;
     border-top: darkgrey 1px solid;
@@ -74,113 +75,118 @@ body{
     padding: 6px;
 
 }
-.btn{
+
+.btn {
     margin: auto;
     background-color: #8d6700;
     display: flex;
     border: none;
-    
+
+
 }
-:hover.btn{
+
+.btn-secundary {
+    display: none;
+    position: relative;
+}
+
+:hover.btn {
     background-color: #c79407;
 }
 
-.nav2{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu2 {
     display: none;
 }
 
 
+.navbar {
 
+    background-color: black;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menu2{
-    display: none;
 }
 
-
-.navbar{
-
-    background-color: black ;
-    
-}
-
-.navlogo{
+.navlogo {
     height: 50px;
-    
+
 }
 
-.cursive{
+.cursive {
 
     height: 40px;
 }
 
 
-.container-fluid{
+.container-fluid {
     background-color: black;
 
 }
 
-.separadormenu{
+.separadormenu {
     background-color: darkgray;
     height: 100%;
     display: flex;
@@ -190,7 +196,7 @@ body{
     top: 4px;
 }
 
-.nav-link{
+.nav-link {
     background-color: #8d6700;
     height: 100%;
     display: flex;
@@ -206,10 +212,7 @@ body{
     position: relative;
     left: -5px;
     height: 70px;
-    
-    
-    
+
+
+
 }
-
-
-

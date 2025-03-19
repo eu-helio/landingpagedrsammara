@@ -74,83 +74,87 @@ h4 {
   font-size: 13px;
 }
 
-footer{
+footer {
   top: 200px;
   position: relative;
 }
 
 @media (min-width: 768px) {
-  .menu1{
+  .menu1 {
     display: fixed;
-    border-bottom:  solid black 8px;
+    border-bottom: solid black 8px;
   }
-  
-  .menu2{
+
+  .menu2 {
     display: fixed;
   }
 
-  
-  .cursive{
-      height: 50px;
-      
-  } 
-  .faleconosco{
+
+  .cursive {
+    height: 50px;
+
+  }
+
+  .faleconosco {
     padding: 20px;
   }
-  
-  .containercontatos{
-    height: 450px;
-    width: 700px;
-    position: relative;
-    top: 40px;
+
+ 
+
+
+
+
+  .containercontatos {
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-}
+
+  }
 
 
 
 
-.controle-atendimento{
-  height:100%;
-    
+  .controle-atendimento {
+    height: 100%;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
-
-
-}
 
 
 
-.canaisdeatendimento{
-    height:100%;
-    
-
-}
+  }
 
 
 
+  .canaisdeatendimento {
+    height: 100%;
 
-.enviodeemail{
+
+  }
+
+
+
+
+  .enviodeemail {
 
     padding: 20px;
     border-left: darkgrey 1px solid;
     border-top: 0px;
-    height:450px;
+    height: 450px;
     width: 550px;
     padding: 10px;
 
-}
-.btn{
+  }
+
+  .btn {
     margin: auto;
-    
+
     display: flex;
-}
+  }
 
 
 

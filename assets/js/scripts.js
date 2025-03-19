@@ -8,7 +8,7 @@ const valores = document.getElementById('valores')
 
 const contato = document.querySelector('.containercontatos')
 
-
+const btnvoltar = document.querySelector('.btn-secundary')
 
 
 function rol1() {
@@ -40,11 +40,17 @@ function rol4() {
 
 
  function rol5() {
-    contato.style.backdropFilter = 'blur(2px)'
+    contato.style.backdropFilter = 'blur(20px)'
+    btnvoltar.style.display = 'flex'
+    contato.style.position = 'fixed'
+    contato.style.margin = 'auto'
+    contato.style.heigth = '100%'
+    contato.style.width = '100%'
     
-    contato.style.minHeight = '100vh'
-    
-    
-    contato.style.top = '-1150px'
-    
+ }
+
+ function voltar(){
+   btnvoltar.style.display = 'none'
+   location.reload()
+
  }
